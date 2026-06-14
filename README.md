@@ -218,11 +218,11 @@ sc2yt/
 
 ## Troubleshooting
 
-- **`Tool nicht gefunden: scdl / ffmpeg`** â€” both binaries must be on `PATH`.
-- **`Channel-Check fehlgeschlagen`** â€” `youtube.channel_id` points to a different account than the OAuth token; either regenerate the token with the correct account (`--login`) or fix `channel_id`.
-- **`HttpError 400`** on upload â€” usually invalid metadata (special characters). `--debug` shows what was sent; the sanitizer catches most things, exotic code points possibly not.
-- **`HttpError 403 quotaExceeded`** â€” daily YouTube API quota exhausted, retry the next day.
-- **scdl downloads nothing new** â€” the tool uses the URL slug as a fallback to map an already-existing MP3 to the same track.
+- **`Tool nicht gefunden: scdl / ffmpeg`** ” both binaries must be on `PATH`.
+- **`Channel-Check fehlgeschlagen`** ” `youtube.channel_id` points to a different account than the OAuth token; either regenerate the token with the correct account (`--login`) or fix `channel_id`.
+- **`HttpError 400`** on upload ” usually invalid metadata (special characters). `--debug` shows what was sent; the sanitizer catches most things, exotic code points possibly not.
+- **`HttpError 403 quotaExceeded`** ” daily YouTube API quota exhausted, retry the next day.
+- **scdl downloads nothing new** ” the tool uses the URL slug as a fallback to map an already-existing MP3 to the same track.
 
 ---
 
